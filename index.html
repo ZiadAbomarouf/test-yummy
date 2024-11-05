@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Yummy</title>
+</head>
+<body>
+    <div class="loading  justify-content-center align-items-center position-fixed top-0 start-0 end-0 bottom-0">
+        <i class="fa-solid fa-spinner fa-5x fa-spin"></i>
+    </div>
+
+    <div class="side-nav-menu   position-fixed d-flex">
+        <div class="nav-tab d-flex flex-column justify-content-between min-vh-100 py-5 p-4">
+            <div class="links overflow-hidden ">
+                <ul class="list-unstyled">
+                    <li onclick="serch()" class="p-2 position-relative">Search</li>
+                    <li onclick="categories()" class="p-2 position-relative">Categories</li>
+                    <li onclick="Area()" class="p-2 position-relative">Area</li>
+                    <li onclick="ingredient() " class="p-2 position-relative">Ingredients</li>
+                    <li onclick="contact() " class="p-2 position-relative">Contact Us</li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <div class="icon p-2">
+                    <i class="fa-brands fa-facebook p-1 "></i>
+                    <i class="fa-brands fa-twitter p-1"></i>
+                    <i class="fa-solid fa-globe p-1"></i>
+                    
+                </div>
+                <div class="footer p-2">
+                    <p>Copyright@ wfqmlwq <br> Reserved</p>
+                </div>
+            </div>
+        </div>
+        <div class="nav-header  bg-light px-2 py-5 text-dark d-flex justify-content-between flex-column text-center">
+            <img src="imgs/logo.png" class="logo">
+            <i class="fa-solid close-open-icon fa-align-justify fa-2x"></i>
+            <div>
+                <i class="fa-solid fa-globe p-1 d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="search">
+        <div class="container w-75" id="search">
+            
+        </div> 
+    </div>
+
+
+  <div class="meals">
+    <div class="container ">
+        
+        <div class="row g-4  py-3 " id="meals_content">
+           
+          
+           
+        </div>
+    </div>
+  </div>
+     
+   
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
